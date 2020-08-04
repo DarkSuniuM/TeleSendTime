@@ -1,0 +1,11 @@
+---
+stages:
+- test
+sast:
+  stage: test
+  script:
+  - "/analyzer run"
+include:
+- template: SAST.gitlab-ci.yml
+# You can override the above template(s) by including variable overrides
+# See https://docs.gitlab.com/ee/user/application_security/sast/#customizing-the-sast-settings
