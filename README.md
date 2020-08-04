@@ -19,7 +19,7 @@ pip install git+https://gitlab.com/DarkSuniuM/TeleSendTime.git
 BTC Rate (USD): $rate
 ```
 
-```python3
+```python
 # app.py
 
 import requests
