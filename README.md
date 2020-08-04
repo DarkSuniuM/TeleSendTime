@@ -6,6 +6,8 @@ TeleSendTime is a Python module for Telegram message automation.
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install TeleSendTime.
 
 ```bash
+pip install TeleSendTime
+# or using Git
 pip install git+https://gitlab.com/DarkSuniuM/TeleSendTime.git
 ```
 
