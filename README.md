@@ -59,9 +59,10 @@ automation.run()
 ```
 
 ## To Do
-* Add to Pypi
 * Add Documentation
 * Improve Concurrency
+* Add Logging
+* Add support for other message types (photo, audio, document)
 
 
 ## Contributing
