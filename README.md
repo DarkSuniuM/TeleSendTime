@@ -63,12 +63,13 @@ automation.run()
 * Improve Concurrency
 * Add Logging
 * Add support for other message types (photo, audio, document)
+* Add Tests
 
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Please make sure to update tests as appropriate.
+<!-- Please make sure to update tests as appropriate. -->
 
 ## License
 [GNU LGPLv3](https://choosealicense.com/licenses/lgpl-3.0/)
