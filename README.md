@@ -31,9 +31,9 @@ from tele_sendtime import load_template
 automation = Automation('MY_BOT_TOKEN')
 
 
-# chat_id => Chat ID or Chat Username
+# chat_id => Chat ID or Channel Username (Note: You can use username only for channels)
 # interval in seconds.
-@automation.job(load_template('template.txt'), chat_id='@my_username', interval=60)
+@automation.job(load_template('template.txt'), chat_id='@my_channel_username', interval=60)
 def send_btc_rate_in_usd():
     # Sample API Call
     req = requests.get('https://api.coindesk.com/v1/bpi/currentprice/USD.json')
@@ -44,7 +44,7 @@ def send_btc_rate_in_usd():
     return [{'rate': rate}] 
 
 
-@automation.job(chat_id='@my_username', interval=60)
+@automation.job(chat_id='@my_channel_username', interval=60)
 def send_btc_rate_in_eur():
     # Sample API Call
     req = requests.get('https://api.coindesk.com/v1/bpi/currentprice/EUR.json')
