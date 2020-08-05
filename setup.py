@@ -2,11 +2,15 @@
 
 from setuptools import setup, find_packages
 
+with open('./README.md', 'rb') as file:
+    long_description = file.read().decode('UTF-8')
+
 
 setup(
     name="TeleSendTime",
-    version='0.1.0',
+    version='0.1.1',
     description="Telegram Message Automation Module.",
+    long_description=long_description,
     url="https://gitlab.com/DarkSuniuM/TeleSendTime",
     project_urls={
         "Code": "https://gitlab.com/DarkSuniuM/TeleSendTime",
