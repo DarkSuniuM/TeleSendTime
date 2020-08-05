@@ -8,7 +8,7 @@ with open('./README.md', 'rb') as file:
 
 setup(
     name="TeleSendTime",
-    version='0.1.1',
+    version='0.1.2',
     description="Telegram Message Automation Module.",
     long_description=long_description,
     long_description_content_type='text/markdown',
