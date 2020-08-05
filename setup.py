@@ -11,6 +11,7 @@ setup(
     version='0.1.1',
     description="Telegram Message Automation Module.",
     long_description=long_description,
+    long_description_content_type='text/markdown',
     url="https://gitlab.com/DarkSuniuM/TeleSendTime",
     project_urls={
         "Code": "https://gitlab.com/DarkSuniuM/TeleSendTime",
