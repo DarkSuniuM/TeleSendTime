@@ -22,8 +22,8 @@ class Automation:
     def add_job(
         self,
         function,
-        template: str,
         chat_id: str,
+        template: str = '',
         render_type: TelegramMessageParseMode = TelegramMessageParseMode.UNSET,
         disable_web_page_preview: bool = False,
         disable_notification: bool = False,
@@ -42,8 +42,8 @@ class Automation:
 
     def job(
         self,
-        template: str,
         chat_id: str,
+        template: str = '',
         render_type: TelegramMessageParseMode = TelegramMessageParseMode.UNSET,
         disable_web_page_preview: bool = False,
         disable_notification: bool = False,
